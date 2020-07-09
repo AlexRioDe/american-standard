@@ -93,6 +93,9 @@ button {
 		padding: 4px 0 0 57px;
 		text-align: left;
 		color: #161616;
+		.text{
+			display: none;
+		}
 		h5{
 			font-size: 14px;
 			line-height: 10px;
@@ -106,9 +109,12 @@ button {
 			font-weight: 700;
 		}
 	}
-	&__img_mob{
+	.icon-call{
 		display: none;
 	}
+	//&__img_mob{
+	//	display: none;
+	//}
 }
 
 .btn-white {
@@ -233,6 +239,9 @@ button {
 				padding: 2px 14px;
 				margin-top: 20px;
 			}
+		}
+		&_mob{
+			display: none;
 		}
 		&_close{
 			background: url('../images/icons/close.svg');

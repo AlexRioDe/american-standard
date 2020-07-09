@@ -1,6 +1,6 @@
 <div class="form">
 	<div class="form__body">
-		<div class="step">
+		<div class="step active">
 			<div class="form__header">What's the reason you are <br/> considering a walk-in tub?</div>
 			<div class="box-btn">
 				<div class="form__btn">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 		</div>
-        <div class="step">
+        <div class="step ">
             <div class="form__header">Do you own your home?</div>
             <div class="box-btn">
                 <div class="form__btn">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="step">
+        <div class="step ">
             <div class="form__header">When are you looking to get a walk-in tub?</div>
             <div class="box-btn">
                 <div class="form__btn">
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <div class="step active">
+        <div class="step ">
             <div class="form__header">One sec while we get your quote ready..</div>
             <div class="form__body_process">
                 <div><i class="icon-Rectangle"></i><span class="header__Processing">Processing..</span></div>

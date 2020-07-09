@@ -1,15 +1,57 @@
 .container {
   max-width: 716px;
+  padding-left: 17px!important;
+  padding-right: 17px!important;
 }
-
+.header{
+  height: 64px;
+}
+.btn{
+  width: 138px;
+  height: 40px;
+  &__icon {
+    display: none;
+  }
+  &__number {
+    .text-mob{
+      display: block;
+      font-size: 11px;
+      line-height: 5px;
+      font-weight: 500;
+      letter-spacing: 0.6px;
+      padding-top: 5px;
+      margin-bottom: 5px;
+    }
+    padding: 0;
+    text-align: center;
+    h5{
+      display: none;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .icon-call{
+    display: inline-block;
+    background: url('../images/icons/icon-call.png');
+    width: 15px;
+    height: 13px;
+    background-size: contain;
+    position: relative;
+    left: -2px;
+    top: 0;
+  }
+}
 .article{
   position: relative;
+  min-height: auto;
   .container{
     width: 100%;
     padding: 0!important;
   }
  .main{
    position: relative;
+   padding-bottom: 30px;
    &:after{
      content: '';
      position: absolute;
@@ -28,14 +70,17 @@
     max-width: calc(100%);
     right: 0;
     left: 0;
-    top: 120px;
+    top: 114px;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-bottom: 5px;
     &:after {
       content: '';
       position: absolute;
-      left: calc(50% - 28px);
+      left: calc(50% - 15px);
       right: inherit;
       bottom: inherit;
-      top: 100%;
+      top: 98%;
       width: 0;
       height: 0;
       border-left: 14px solid transparent;
@@ -43,62 +88,212 @@
       border-top: 13px solid #50b4b6;
       border-bottom: inherit;
     }
+    &_title{
+      display: none;
+    }
+    &_text{
+      display: none;
+    }
+    &_mob{
+      display: block;
+      font-size: 14px;
+      max-width: 290px;
+      line-height: 18px;
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 300;
+      letter-spacing: -0.5px;
+      span{
+        font-weight: bold;
+      }
+      a{
+        font-size: 10px;
+      }
+    }
   }
   .form {
     position: relative;
-    top: 83px;
+    top: 30px;
+    background: #fff;
+    width: 100%;
     &__body {
       .step {
         width: 100%;
         border: none;
         border-radius: 0;
+        min-height: 400px;
+        box-shadow: none;
         .form__header{
           max-width: 340px;
           margin: 0 auto;
+          font-size: 18px;
+          line-height: 22px;
+          padding-top: 24px;
+          padding-bottom: 16px;
           br{
             display: none;
           }
         }
       }
-      
     }
     .box-btn {
       display: flex;
       align-items: center;
       justify-content: left;
       flex-wrap: wrap;
-      max-width: 100%;
+      max-width: 294px;
       margin: 0 auto;
     }
     &__btn {
-      font-size: 18px;
-      letter-spacing: 0.5px;
+      font-size: 15px;
+      letter-spacing: 0;
       background: #F5F5F5 0% 0% no-repeat padding-box;
       border-radius: 10px;
-      width: 180px;
-      height: 180px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #000;
-      margin: 0 10px 16px;
+      width: 138px;
+      height: 138px;
+      margin: 0 3px 6px;
       font-weight: 400;
-      
-      
-      
+      .box-icon {
+        height: 93px;
+        .icon-Safety {
+          width: 51px;
+          height: 51px;
+          background-size: cover;
+          top: -2px;
+        }
+        .icon-Therapeutic {
+          width: 66px;
+          height: 54px;
+          top: -2px;
+          background-size: cover;
+        }
+        .icon-Both {
+          background-size: cover;
+          width: 101px;
+          height: 71px;
+          top: -2px;
+        }
+        .icon-Other {
+          background-size: cover;
+          width: 63px;
+          height: 15px;
+          top: -2px;
+        }
+        .icon-Yes {
+          background: url('../images/icons/icon-yes.svg') no-repeat;
+          width: 67px;
+          height: 59px;
+          display: inline-block;
+          top: -10px;
+          left: 6px;
+          position: relative;
+        }
+        .icon-No {
+          background: url('../images/icons/icon-no.svg') no-repeat;
+          width: 58px;
+          height: 55px;
+          display: inline-block;
+          top: -10px;
+          left: 3px;
+          position: relative;
+        }
+        .icon-Immediately {
+          background: url(/dist/assets/images/icons/icon-immediately.svg) no-repeat;
+          width: 80px;
+          height: 73px;
+          display: inline-block;
+          top: -5px;
+          left: 3px;
+          position: relative;
+        }
+        .icon-Within {
+          background: url('../images/icons/icon-within.svg') no-repeat;
+          width: 80px;
+          height: 73px;
+          display: inline-block;
+          top: -5px;
+          left: 3px;
+          position: relative;
+        }
+        .icon-Not-Sure {
+          background: url('../images/icons/icon-not-sure.svg') no-repeat;
+          width: 27px;
+          height: 27px;
+          display: inline-block;
+          position: relative;
+        }
+      }
     }
   }
   .main h1 {
-    padding: 30px 0 0 0;
+    padding: 14px 0 0;
     font-size: 25px;
-    color: #ffffff;
+    color: #fff;
     line-height: 30px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 3;
+    max-width: 268px;
   }
 }
 
 .section__innovation {
+  .info{
+    padding: 16px 0 16px;
+    border-radius: 0;
+    box-shadow: none;
+    &__title {
+      text-align: left;
+      font-size: 17px;
+      line-height: 12px;
+      letter-spacing: 0.2px;
+    }
+    &__content{
+      &_item {
+        padding-bottom: 21px;
+        padding-left: 25px;
+        font-size: 15px;
+        letter-spacing: -0.32px;
+        line-height: 7px;
+        &:after {
+          top: -1px;
+          background-size: cover;
+          width: 15px;
+          height: 14px;
+        }
+      }
+    }
+    &__right {
+      padding-top: 27px;
+    }
+    .btn{
+      height: 55px;
+      &__number {
+        padding: 0;
+        p{
+          font-size: 21px;
+          letter-spacing: 0.5px;
+        }
+        .text-mob{
+          padding-top: 9px;
+          margin-bottom: 3px;
+        }
+      }
+      .icon-call{
+        width: 19px;
+        height: 16px;
+      }
+      &__img_mob {
+        right: -19px;
+        width: 62px;
+        top: -2px;
+        display: block;
+        height: auto;
+      }
+    }
+  }
   .innovation{
+    
     &__left {
       margin: 0 auto;
       &:after {

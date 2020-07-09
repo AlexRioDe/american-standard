@@ -4,10 +4,13 @@
 			<div class="article__tooltip_title"><sup>2</sup>Special Offer: Save $1,500 - includes a FREE American
 				Standard Toilet
 			</div>
-						<div class="article__tooltip_text"><sup>2</sup>Limited time offer for every customer who purchases and
-							installs a new Liberation walk-in tub.
-							<a href="/">Click to see details</a>
-						</div>
+			<div class="article__tooltip_text"><sup>2</sup>Limited time offer for every customer who purchases and
+				installs a new Liberation walk-in tub.
+				<a href="/">Click to see details</a>
+			</div>
+			<div class="article__tooltip_mob">
+				<span>Special Offer:</span> Save $1,500 - includes a <br/> FREE American Standard Toilet! <a href="/">Call to learn more</a>
+			</div>
 <!--			<div class="article__tooltip_details">-->
 <!--				<a href="/" class="article__tooltip_close"></a>-->
 <!--				<div class="article__tooltip_text">-->
@@ -28,7 +31,7 @@
 
 		</div>
 		<div class="main">
-<!--			<h1>Have more independence with a safe walk-in bathtub</h1>-->
+			<h1>Have more independence with a safe walk-in bathtub</h1>
             <?php include 'form.php'; ?>
 		</div>
 	</div>
@@ -54,7 +57,8 @@
 							</div>
 							<div class="btn__number">
 								<h5>Call for FREE Quote</h5>
-								<p>888-888-8888</p>
+								<div class="text-mob">Call for a FREE personalized quote</div>
+								<p><i class="icon-call"></i>888-888-8888</p>
 							</div>
 							<img class="btn__img_mob" src="dist/assets/images/btn+img.png">
 						</button>
