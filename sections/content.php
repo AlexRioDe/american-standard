@@ -68,7 +68,8 @@
 			<div class="innovation">
 				<div class="innovation__left">
 					<div class="innovation__img">
-						<img class="" src="dist/assets/images/combon.png">
+						<img class="innovation__img_desk" src="dist/assets/images/combon.png">
+						<img class="innovation__img_mob" src="dist/assets/images/combon-mob.png">
 						<div class="innovation__img_number number1">1</div>
 						<div class="innovation__img_number number2">2</div>
 						<div class="innovation__img_number number3">3</div>

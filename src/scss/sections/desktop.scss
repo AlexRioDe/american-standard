@@ -610,6 +610,9 @@ button {
 			&__img {
 				position: relative;
 				z-index: 2;
+				&_mob{
+					display: none;
+				}
 				&_number {
 					width: 48px;
 					height: 48px;
