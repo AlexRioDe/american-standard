@@ -142,7 +142,8 @@
 						</div>
 						<div class="btn__number">
 							<h5>Call for FREE Quote</h5>
-							<p>888-888-8888</p>
+							<div class="text-mob">Call for a FREE personalized quote</div>
+							<p><i class="icon-call"></i>888-888-8888</p>
 						</div>
 					</button>
 				</a>

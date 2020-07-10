@@ -28,4 +28,11 @@
   @media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     @import './sections/mobile';
   }
+  @media all and (max-width: 374px) {
+    @import './sections/mobile-320';
+  }
+  
+  @media all and (max-width: 374px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @import './sections/mobile-320';
+  }
 }

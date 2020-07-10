@@ -93,7 +93,7 @@ button {
 		padding: 4px 0 0 57px;
 		text-align: left;
 		color: #161616;
-		.text{
+		.text-mob{
 			display: none;
 		}
 		h5{
@@ -112,9 +112,9 @@ button {
 	.icon-call{
 		display: none;
 	}
-	//&__img_mob{
-	//	display: none;
-	//}
+	&__img_mob{
+		display: none;
+	}
 }
 
 .btn-white {
