@@ -22,9 +22,17 @@
   .form {
     &__body {
       .step {
-        width: 470px;
+        min-width: 719px;
       }
       
+    }
+  }
+  .free_form {
+    width: 350px;
+    .checkbox {
+      &__label {
+        font: 16px/33px Open Sans;
+      }
     }
   }
   .main h1 {

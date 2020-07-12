@@ -7,7 +7,7 @@
   <title>American Standard</title>
   <?php include 'css-files.php'; ?>
 </head>
-<body class="americanStandard"><!--ADD CLASS startForm first click btn form-->
+<body class="americanStandard startForm"><!--ADD CLASS startForm first click btn form-->
   <div id="overlay" class="overlay"></div>
   <?php
 //    include ABSPATH . '/wp-content/themes/att-promotions-com/p1-test/nice-alerts/new-alerts.php';
