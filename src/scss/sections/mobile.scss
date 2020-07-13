@@ -182,6 +182,7 @@
             width: 282px;
             height: 265px;
             padding: 23px 13px;;
+            
 
             h2 {
               font: 16px/22px Source Sans Pro;
@@ -213,7 +214,13 @@
       }
     }
     &__body_process {
-      margin-top: 10px;
+      margin: 30px auto;
+      width: 339px;
+      height: 182px;
+      background: #F6F6F6 0% 0% no-repeat padding-box;
+      border-radius: 7px;
+      padding: 30px;
+
       hr {
         display: none;
       }
@@ -222,7 +229,10 @@
         color: #000000;
         font-weight: 500;
       }
-
+      .info {
+        text-align: left;
+        padding-top: 14px;
+      }
       .body__Processing {
         font: 14px/15px Open Sans;
         color: #000000;
@@ -233,13 +243,24 @@
         background-size: contain;
         width: 18px;
         height: 18px;
+        top: 4px;
       }
       .icon-Rectangle-min {
         background-size: contain;
         width: 15px;
         height: 15px;
+        top: 3px;
       }
     }
+    &__body_process:after {
+      content: "";
+      position: absolute;
+      left: 45%;
+      top: 15%;
+      border: 20px solid transparent;
+      border-bottom: 18px solid #f6f6f6;
+    }
+
     &__body_end {
       display: none;
     }

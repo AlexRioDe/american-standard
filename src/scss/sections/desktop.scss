@@ -31,9 +31,12 @@ button {
 					margin-top: 23px;
 					margin-bottom: 28px;
 				}
-			//	.form__header {
-			//		display: none;
-			//}
+				
+				.form__header {
+					font: 28px Source Sans Pro;
+					width: 380px;
+					min-height: 88px;
+			}
 		}
 	}
 	}
@@ -493,6 +496,7 @@ button {
 			margin: 57px auto 0;
 		}
 		&__btn {
+			cursor: pointer;
 			font-size: 18px;
 			letter-spacing: 0.5px;
 			background: #F5F5F5 0% 0% no-repeat padding-box;

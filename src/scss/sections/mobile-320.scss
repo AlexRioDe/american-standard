@@ -9,10 +9,18 @@
     padding-bottom: 90px;
     &__body {
       .step {
+        min-width: 281px;
         .form__header{
-          max-width: 290px;
+          max-width: 281px;
+          margin: 0 auto;
         }
       }
+      
+
+    }
+    &__body_process {
+      margin: 10px auto;
+      width: 281px;
     }
   }
 }

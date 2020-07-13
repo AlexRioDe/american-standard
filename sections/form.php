@@ -1,93 +1,111 @@
 <div class="form">
 	<div class="form__body">
-		<div class="step ">
+		<div id="Reason-bathroom" class="step active">
 			<div class="form__header">
                 <h2>What's the reason you are <br/> considering a walk-in tub?</h2>
             </div>
 			<div class="box-btn">
-				<div class="form__btn">
-					<div class="box-icon">
-						<i class="icon-Safety"></i>
-					</div>
-					<span>Safety</span>
-				</div>
-				<div class="form__btn">
-					<div class="box-icon">
-						<i class="icon-Therapeutic"></i>
-					</div>
-					<span>Therapeutic </span>
-				</div>
-				<div class="form__btn">
-					<div class="box-icon">
-						<i class="icon-Both"></i>
-					</div>
-					<span>Both </span>
-				</div>
-				<div class="form__btn">
-					<div class="box-icon">
-						<i class="icon-Other"></i>
-					</div>
-					<span>Other Reasons </span>
-				</div>
+                <a href="#Safety" id="Safety">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Safety"></i>
+                        </div>
+                        <span>Safety</span>
+                    </div>
+                </a>
+                <a href="#Therapeutic" id="Therapeutic">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Therapeutic"></i>
+                        </div>
+                        <span>Therapeutic </span>
+                    </div>
+                </a>
+                <a href="#Both" id="Both">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Both"></i>
+                        </div>
+                        <span>Both </span>
+                    </div>
+                </a>
+                <a href="#Other-Reasons" id="Other-Reasons">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Other"></i>
+                        </div>
+                        <span>Other Reasons </span>
+                    </div>
+                </a>
 			</div>
 		</div>
-        <div class="step ">
+        <div id="myHouse" class="step ">
             <div class="form__header">
                 <h2>Do you own your home?</h2>
             </div>
             <div class="box-btn">
-                <div class="form__btn">
-                    <div class="box-icon">
-                        <i class="icon-Yes"></i>
+                <a href="#Yes" id="Yes">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Yes"></i>
+                        </div>
+                        <span>Yes</span>
                     </div>
-                    <span>Yes</span>
-                </div>
-                <div class="form__btn">
-                    <div class="box-icon">
-                        <i class="icon-No"></i>
+                </a>
+                <a href="#No" id="No">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-No"></i>
+                        </div>
+                        <span>No </span>
                     </div>
-                    <span>No </span>
-                </div>
+                </a>
             </div>
         </div>
-        <div class="step ">
+        <div id="whenLooking" class="step">
             <div class="form__header">
                 <h2>When are you looking to get a walk-in tub?</h2></div>
             <div class="box-btn">
-                <div class="form__btn">
-                    <div class="box-icon">
-                        <i class="icon-Immediately"></i>
+                <a href="#Immediately" id="Immediately">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Immediately"></i>
+                        </div>
+                        <span>Immediately</span>
                     </div>
-                    <span>Immediately</span>
-                </div>
-                <div class="form__btn">
-                    <div class="box-icon">
-                        <i class="icon-Within"></i>
+                </a>
+                <a href="#6Months" id="6Months">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Within"></i>
+                        </div>
+                        <span>Within 6 Months</span>
                     </div>
-                    <span>Within 6 Months</span>
-                </div>
-                <div class="form__btn">
-                    <div class="box-icon">
-                        <i class="icon-Not-Sure"></i>
+                </a>
+                <a href="#NotSure" id="NotSure">
+                    <div class="form__btn">
+                        <div class="box-icon">
+                            <i class="icon-Not-Sure"></i>
+                        </div>
+                        <span>Not Sure</span><span>I Need Assistance</span>
                     </div>
-                    <span>Not Sure</span><span>I Need Assistance</span>
-                </div>
+                </a>
             </div>
         </div>
-        <div class="step ">
+        <div id="Process" class="step ">
             <div class="form__header">
                 <h2>One sec while we get your quote ready..</h2>
             </div>
             <div class="form__body_process">
                 <div><i class="icon-Rectangle"></i><span class="header__Processing">Processing..</span></div>
                 <hr/>
-                <div><i class="icon-Check"></i><span class="body__Processing"><b>Available</b> Safety Bathtubs</span></div>
-                <div><i class="icon-Rectangle-min"></i><span class="body__Processing">Processing..</span></div>
-                <div><i class="icon-Rectangle-min"></i><span class="body__Processing">Processing..</span></div>
+                <div class="info"><i class="icon-Check"></i><span class="body__Processing"><b>Available</b> Safety Bathtubs</span></div>
+                <div class="info"><i class="icon-Rectangle-min"></i><span class="body__Processing">Processing..</span></div>
+                <div class="info"><i class="icon-Rectangle-min"></i><span class="body__Processing">Processing..</span></div>
             </div>
             <div class="form__body_end"></div>
             </div>
-        <div class="step ">
+        <div id="freeForm" class="step ">
             <div class="form__header">
                 <h2>Your Free Quote is Almost Ready!</h2>
                 <h5>We found matches that fit your selections! Where should we send your free quote?</h5>
@@ -113,11 +131,11 @@
                         <input class="checkbox__input" type="checkbox" id="checkbox-id" />
                         <label class="checkbox__label" for="checkbox-id">I confirm this information is accurate*</label>
                     </div>
-                    <button type="button" class="free_form__btn">Get My Free Quote</button>
+                    <button id="getQuote" type="button" class="free_form__btn">Get My Free Quote</button>
                     <span>We respect your privacy and want to make sure you are aware of a few things. By clicking above, you authorize American Standard, who can help you learn more about walk-in tubs and other products, to call you at the telephone number(s) provided, and you understand that we may use automated technology including text messaging to contact you. You understand that your consent is not required to purchase products or services, and you understand that you may revoke your consent at any time by calling American Standard at 855-200-1870.</span>
                 </form>
         </div>
-        <div class="step active">
+        <div id="finish" class="step ">
             <div class="form__header">
                 <h2>Hi {Name},<br/> We'll reach out with your quote soon!</h2>
             </div>
